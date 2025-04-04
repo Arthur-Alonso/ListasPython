@@ -1,5 +1,5 @@
 """
-3 .- Crie um programa que receba três números do usuário e calcule a média aritmética deles.
+3 - Crie um programa que receba três números do usuário e calcule a média aritmética deles.
 """
 
 numeros = []
