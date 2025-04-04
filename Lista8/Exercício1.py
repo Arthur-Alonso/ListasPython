@@ -4,7 +4,7 @@ primeiro pelo segundo. Utilize tratamento de exceções para evitar erros de
 divisão por zero e erros de entrada inválida (como caracteres não numéricos).
 """
 
-def divisao_segura():
+def divisao():
     try:
         num1 = float(input("Digite o primeiro número: "))
         num2 = float(input("Digite o segundo número: "))
@@ -15,4 +15,4 @@ def divisao_segura():
     except ValueError:
         print("Erro: Entrada inválida. Digite apenas números.")
 
-divisao_segura()
+divisao()
